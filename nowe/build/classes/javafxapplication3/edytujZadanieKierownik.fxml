@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication3.EdytujZadanieKierownikController">
+   <children>
+      <Button fx:id="wyloguj" layoutX="1044.0" layoutY="39.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="73.0" layoutY="101.0" text="Postęp zadania:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="278.0" layoutY="101.0" prefHeight="35.0" prefWidth="149.0" promptText="50%" />
+      <Button layoutX="73.0" layoutY="171.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="354.0" text="Zaktualizuj postęp w zadaniu">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="73.0" layoutY="326.0" text="Opis zadania:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="73.0" layoutY="382.0" prefHeight="295.0" prefWidth="868.0" promptText="Tutaj pojawi się opis zadania">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="73.0" layoutY="739.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="201.0" text="Zaktualizuj opis">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="wstecz" layoutX="810.0" layoutY="739.0" mnemonicParsing="false" onAction="#wstecz" prefHeight="54.0" prefWidth="131.0" text="Wstecz">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

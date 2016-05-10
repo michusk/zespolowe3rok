@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.FXMLDocumentController">
+    <children>
+      <Text layoutX="37.0" layoutY="83.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WorkinSpace" textAlignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="password" layoutX="470.0" layoutY="399.0" promptText="Hasło">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </PasswordField>
+      <Text layoutX="586.0" layoutY="379.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hasło:" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="587.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login:" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="login" layoutX="470.0" layoutY="253.0" promptText="Login@gmail.com" AnchorPane.bottomAnchor="596.0" AnchorPane.leftAnchor="470.0" AnchorPane.rightAnchor="432.0" AnchorPane.topAnchor="253.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button fx:id="zaloguj" layoutX="563.0" layoutY="468.0" mnemonicParsing="false" onAction="#logowanie" text="Zaloguj" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Hyperlink fx:id="zapomnialemHasla" layoutX="508.0" layoutY="558.0" onAction="#zapomnialemHasla" text="Zapomniałem hasła" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Hyperlink>
+    </children>
+</AnchorPane>

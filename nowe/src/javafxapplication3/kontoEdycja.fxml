@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.kontoEdycjaController">
+   <children>
+      <Button fx:id="wstecz" layoutX="486.0" layoutY="672.0" mnemonicParsing="false" onAction="#wstecz" text="Wstecz">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="zapiszZmiany" layoutX="167.0" layoutY="672.0" mnemonicParsing="false" onAction="#zapiszzmiany" text="Zapisz zmiany">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label layoutX="167.0" layoutY="523.0" text="Hasło:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="460.0" text="Telefon:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="401.0" text="Adres:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="167.0" layoutY="348.0" text="Email:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="167.0" layoutY="287.0" text="Nazwisko:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="166.0" layoutY="235.0" text="Imię:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="wyloguj" layoutX="1062.0" layoutY="51.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordtb" layoutX="486.0" layoutY="537.0" promptText="password" />
+      <TextField fx:id="imietb" layoutX="486.0" layoutY="249.0" promptText="Jan" />
+      <TextField fx:id="nazwiskotb" layoutX="486.0" layoutY="314.0" promptText="Kowalski" />
+      <TextField fx:id="emailtb" layoutX="486.0" layoutY="362.0" promptText="kowalskijab@gmail.com" />
+      <TextField fx:id="adrestb" layoutX="486.0" layoutY="415.0" promptText="Rzeszów, Rejtana" />
+      <TextField fx:id="telefontb" layoutX="486.0" layoutY="474.0" promptText="000-000-000" />
+   </children>
+</AnchorPane>

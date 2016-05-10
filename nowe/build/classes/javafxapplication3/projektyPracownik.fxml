@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.ProjektyPracownikController">
+   <children>
+      <Button fx:id="wyloguj" layoutX="1072.0" layoutY="61.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TableView layoutX="96.0" layoutY="88.0" prefHeight="243.0" prefWidth="878.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TableView layoutX="96.0" layoutY="355.0" prefHeight="243.0" prefWidth="878.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+      <Button layoutX="96.0" layoutY="635.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="218.0" text="Wyświetl zadania">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="96.0" layoutY="744.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="309.0" text="Aktualizuj postęp zadania">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="wstecz" layoutX="806.0" layoutY="635.0" mnemonicParsing="false" onAction="#wstecz" prefHeight="54.0" prefWidth="168.0" text="Wstecz">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField layoutX="497.0" layoutY="744.0" prefHeight="54.0" prefWidth="107.0" promptText="50%">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication3.ZadaniaPracownikController">
+   <children>
+      <Button fx:id="wyloguj" layoutX="1072.0" layoutY="61.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TableView layoutX="148.0" layoutY="115.0" prefHeight="357.0" prefWidth="863.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="wstecz" layoutX="148.0" layoutY="641.0" mnemonicParsing="false" onAction="#wstecz" prefHeight="54.0" prefWidth="121.0" text="Wstecz">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="436.0" layoutY="641.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="230.0" text="Podgląd zadania">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField layoutX="781.0" layoutY="639.0" prefHeight="54.0" prefWidth="230.0" promptText="50%">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Button layoutX="781.0" layoutY="538.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="230.0" text="Zaktualizuj postęp">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

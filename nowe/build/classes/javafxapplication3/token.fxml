@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.tokenController">
+   <children>
+      <Button fx:id="zmienHaslo" layoutX="548.0" layoutY="478.0" mnemonicParsing="false" onAction="#zmienHaslo" text="Zmień hasło" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField fx:id="token" layoutX="480.0" layoutY="263.0" promptText="Token">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Text layoutX="597.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Token:" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="566.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nowe hasło:" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <PasswordField fx:id="noweHaslo" layoutX="480.0" layoutY="409.0" promptText="Nowe hasło">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </PasswordField>
+      <Text layoutX="47.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WorkinSpace" textAlignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

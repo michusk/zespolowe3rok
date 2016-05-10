@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.odzyskiwanieHaslaController">
+   <children>
+      <Button fx:id="przeslij" layoutX="573.0" layoutY="478.0" mnemonicParsing="false" onAction="#przeslij" text="Prześlij" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Text layoutX="596.0" layoutY="389.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email:" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="47.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WorkinSpace" textAlignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="89.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nie pamiętasz hasła?">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="89.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Wpisz swój adres e-mail, aby zresetować hasło. Może być konieczne sprawdzenie folderu ze spamem.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="email" layoutX="458.0" layoutY="414.0" prefHeight="51.0" prefWidth="337.0" promptText="Login@gmail.com">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

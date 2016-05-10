@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.zlyTokenController">
+   <children>
+      <Text layoutX="57.0" layoutY="103.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WorkinSpace" textAlignment="CENTER">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Text>
+      <Text layoutX="426.0" layoutY="307.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nieprawidłowy token!" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="wrocDoPaneluLogowania" layoutX="655.0" layoutY="488.0" mnemonicParsing="false" text="Wróć do panelu logowania" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="sprobujPonownie" layoutX="247.0" layoutY="488.0" mnemonicParsing="false" text="Spróbuj ponownie" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

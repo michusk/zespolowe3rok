@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication3.UtworzProjektKierownikController">
+   <children>
+      <Button fx:id="wyloguj" layoutX="1050.0" layoutY="25.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="113.0" layoutY="95.0" text="Nazwa projektu:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="329.0" layoutY="87.0" prefHeight="51.0" prefWidth="320.0" promptText="projekt 3">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+      <Label layoutX="113.0" layoutY="247.0" text="Opis projektu:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="113.0" layoutY="301.0" prefHeight="387.0" prefWidth="877.0" promptText="Opis projektu">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextArea>
+      <Button layoutX="113.0" layoutY="732.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="171.0" text="Dodaj projekt">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="wstecz" layoutX="869.0" layoutY="732.0" mnemonicParsing="false" onAction="#wstecz" prefHeight="54.0" prefWidth="121.0" text="Wstecz">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

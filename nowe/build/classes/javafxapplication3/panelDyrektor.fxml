@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.panelDyrektorController">
+   <children>
+      <Button fx:id="raporty" layoutX="271.0" layoutY="508.0" mnemonicParsing="false" prefHeight="205.0" prefWidth="226.0" text="Raporty">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="kierownik" layoutX="733.0" layoutY="264.0" mnemonicParsing="false" prefHeight="205.0" prefWidth="236.0" text="Kierownik">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="mojeKonto" layoutX="271.0" layoutY="264.0" mnemonicParsing="false" onAction="#mojeKonto" prefHeight="205.0" prefWidth="226.0" text="Moje Konto">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Text layoutX="325.0" layoutY="109.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Zalogowany jako:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="wyloguj" layoutX="1052.0" layoutY="41.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="projekty" layoutX="733.0" layoutY="508.0" mnemonicParsing="false" onAction="#projekty" prefHeight="205.0" prefWidth="236.0" text="Projekty">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Text layoutX="630.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="391.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

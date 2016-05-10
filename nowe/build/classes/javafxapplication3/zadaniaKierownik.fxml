@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.ZadaniaKierownikController">
+   <children>
+      <Button fx:id="wyloguj" layoutX="1072.0" layoutY="61.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TableView layoutX="94.0" layoutY="129.0" prefHeight="398.0" prefWidth="880.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Button fx:id="wstecz" layoutX="94.0" layoutY="652.0" mnemonicParsing="false" onAction="#wstecz" prefHeight="54.0" prefWidth="121.0" text="Wstecz">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="utworzZadanie" layoutX="94.0" layoutY="752.0" mnemonicParsing="false" onAction="#utworzZadanie" prefHeight="54.0" prefWidth="204.0" text="Utwórz zadanie">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="741.0" layoutY="556.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="233.0" text="Zaktualizuj postęp">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="edytujZadanie" layoutX="364.0" layoutY="752.0" mnemonicParsing="false" onAction="#edytujZadanie" prefHeight="54.0" prefWidth="377.0" text="Edytuj zadanie-Podgląd zadania">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="797.0" layoutY="752.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="177.0" text="Usuń zadanie">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField layoutX="741.0" layoutY="653.0" prefHeight="51.0" prefWidth="233.0" promptText="50%">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

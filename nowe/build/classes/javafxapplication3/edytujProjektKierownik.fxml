@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication3.EdytujProjektKierownikController">
+   <children>
+      <Button fx:id="wstecz" layoutX="820.0" layoutY="749.0" mnemonicParsing="false" onAction="#wstecz" prefHeight="54.0" prefWidth="131.0" text="Wstecz">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="83.0" layoutY="749.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="201.0" text="Zaktualizuj opis">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextArea layoutX="83.0" layoutY="392.0" prefHeight="295.0" prefWidth="868.0" promptText="Tutaj pojawi się opis projektu i dokładne wytyczne napisane przez kierownika">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="83.0" layoutY="336.0" text="Opis projektu:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="83.0" layoutY="181.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="354.0" text="Zaktualizuj postęp w projekcie">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <TextField layoutX="288.0" layoutY="111.0" prefHeight="35.0" prefWidth="149.0" promptText="50%" />
+      <Label layoutX="83.0" layoutY="111.0" text="Postęp projektu:">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="wyloguj" layoutX="1054.0" layoutY="49.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

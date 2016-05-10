@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.kontoWidokController">
+   <children>
+      <Button fx:id="wyloguj" layoutX="1052.0" layoutY="41.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="157.0" layoutY="172.0" text="Id:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="225.0" text="Imię:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="277.0" text="Nazwisko:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="338.0" text="Email:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="154.0" layoutY="391.0" text="Adres:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="156.0" layoutY="450.0" text="Telefon:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="157.0" layoutY="513.0" text="Ranga:">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="edytujProfil" layoutX="157.0" layoutY="662.0" mnemonicParsing="false" onAction="#edytujProfil" text="Edytuj profil">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="wstecz" layoutX="476.0" layoutY="662.0" mnemonicParsing="false" onAction="#wstecz" text="Wstecz">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Text fx:id="telefon" layoutX="475.0" layoutY="491.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="691.41015625">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="email" layoutX="475.0" layoutY="369.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="691.41015625">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="adres" layoutX="475.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="691.41015625">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="nazwisko" layoutX="476.0" layoutY="318.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="700.41015625">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="imie" layoutX="475.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="664.41015625">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="ranga" layoutX="476.0" layoutY="554.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="700.41015625">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text fx:id="id" layoutX="476.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="700.41015625">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
