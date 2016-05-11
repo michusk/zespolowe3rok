@@ -14,12 +14,16 @@ import java.sql.Statement;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 
 /**
@@ -33,6 +37,11 @@ public class EdytujProjektKierownikController implements Initializable {
     private Button wstecz;
     @FXML
     private Button wyloguj;
+    @FXML
+    private TextArea Opisp;
+    @FXML
+    private TextField Postepp;
+    
     
     
     
@@ -47,20 +56,20 @@ public class EdytujProjektKierownikController implements Initializable {
                         try{
                            String id_pro = "01";
                            String query = 
-                           "select postep_p, opis_p  from Projekty where  id_projektu='"+id_pro+"' limit 1";
+                           "select Postepp, Opisp  from Projekty where  Idprojektu='"+id_pro+"' limit 1";
                            conn = new Driver().getConnection();
                            Statement stmt = conn.createStatement();
                            ResultSet rs = stmt.executeQuery(query);
                            
                         rs.next();
                         
-                                int postep_p=rs.getInt("postep_p");
-                                String opis_p=rs.getString("opis_p");
+                                int Postepp=rs.getInt("Postepp");
+                                String Opisp=rs.getString("Opisp");
                                 
                                 
                                 
-                                this.postep_p.setText(postep_p);
-                                this.opis_p.setText(postep_p);
+                                this.Postepp.setText(""+Postepp);
+                                this.Opisp.setText(Opisp);
                            
                        }
                         
@@ -94,6 +103,15 @@ public class EdytujProjektKierownikController implements Initializable {
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.show();
+    }
+
+
+    @FXML
+    private void Opisp(MouseEvent event) {
+    }
+
+    @FXML
+    private void Postepp(ActionEvent event) {
     }
     
 }

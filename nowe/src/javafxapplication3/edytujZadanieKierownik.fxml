@@ -7,8 +7,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxapplication3.EdytujZadanieKierownikController">
+<AnchorPane id="AnchorPane" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication3.EdytujZadanieKierownikController">
    <children>
       <Button fx:id="wyloguj" layoutX="1044.0" layoutY="39.0" mnemonicParsing="false" onAction="#wyloguj" prefHeight="54.0" prefWidth="121.0" text="Wyloguj">
          <font>
